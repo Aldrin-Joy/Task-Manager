@@ -1,0 +1,71 @@
+/* Font and reset styles (keep what you already have) */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Background & text color using CSS variables */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* CSS variables for light mode */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --input-bg: #f0f0f0;
+  --input-text: #000000;
+  --button-bg: #007bff;
+  --button-text: #ffffff;
+  --card-bg: #f9f9f9;
+}
+
+/* CSS variables for dark mode */
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+  --input-bg: #1e1e1e;
+  --input-text: #f0f0f0;
+  --button-bg: #1a73e8;
+  --button-text: #ffffff;
+  --card-bg: #1a1a1a;
+}
+
+/* Form inputs */
+input {
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Buttons */
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  cursor: pointer;
+  padding: 8px 12px;
+}
+
+/* Task cards or containers */
+.card {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
