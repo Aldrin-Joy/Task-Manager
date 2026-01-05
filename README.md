@@ -146,6 +146,11 @@ http://localhost:3000
 ---
 
 ## Screenshots 
+[Login Page] <img width="1920" height="1080" alt="Login" src="https://github.com/user-attachments/assets/fff9cc3a-5ca3-4bf7-9adf-8841d12d9356" />
+
+[Tasks Dashboard] <img width="1920" height="1080" alt="Tasks" src="https://github.com/user-attachments/assets/4ee095e2-a3ff-4f9d-b8d8-f477f4c91968" />
+
+[Dark Mode] <img width="1920" height="1080" alt="Dark Mode" src="https://github.com/user-attachments/assets/7fe7ff76-b8f7-4ba6-8030-49fe78a0069c" />
 
 
 
